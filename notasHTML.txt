@@ -1,0 +1,44 @@
+
+    <!--SEMANTICA DE HTML-->
+
+    
+<html>: Definir el inicio y el final del documento HTML.
+
+<head>: Contiene metadatos, enlaces a archivos CSS y otros elementos no visibles en la página.
+
+<title>: Define el título de la página, que se muestra en la barra de título del navegador.
+
+<body>: Contiene el contenido visible de la página web.
+
+<h1> - <h6>: Encabezados de diferentes niveles, donde <h1>es el más importante y <h6>el menos importante.
+
+<p>: Definir un párrafo de texto.
+
+<a>: Crea un hipervínculo que enlaza a otra página o recurso.
+
+<img>: Inserta una imagen en la página.
+
+<ul>: Crea una lista no ordenada.
+
+<ol>: Crea una lista ordenada.
+
+<li>: Definir un elemento de lista en una lista no ordenada u ordenada.
+
+<tr>: Definir una fila en una tabla.
+
+<th>: Definir una celda de encabezado en una tabla.
+
+<td>: Definir una celda de datos en una tabla.
+
+<form>: Crea un formulario para enviar datos al servidor.
+
+<input>: Definir un campo de entrada en un formulario.
+
+<textarea>: Crea un campo de texto de varias líneas en un formulario.
+
+<button>: Crea un botón interactivo en un formulario.
+
+<div>: Definir una sección genérica o un contenedor para agrupar elementos.
+
+<span>: Define una sección en línea genérica o un contenedor para texto.
+
