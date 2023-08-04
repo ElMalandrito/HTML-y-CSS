@@ -8,10 +8,20 @@
 </head>
 
 <body>
-    <main> <!--Poner ./ para que te muestre la ruta de tu imagen-->
-        <section> <!--El alt es el msj que se muestra en caso de que no se pueda abrir la imagen-->
-            <img src="c:\Users\WINDOWS 10\Desktop\recursosVisuales\tipos de imagen.png" alt="Tipos de imagen">
-            <img src="c:\Users\WINDOWS 10\Desktop\recursosVisuales\estructura_de_html.png" alt="Estructura de HTML">
+    <main>
+        <section>
+            <!--Por lo general la etiqueta img va dentro de otra etiqueta para poder darle forma a la imagen semanticamente lo correcto es haccerlo con una etiqueta figure aunque es comun ver que lo hagan con un div-->
+            <figure>
+                <img src="c:\Users\WINDOWS 10\Desktop\recursosVisuales\tipos de imagen.png" alt="Tipos de imagen" />
+                <figcaption>Tipos de imagen</figcaption>
+                <!--Figcaption le pone una descripcion a la imagen -->
+            </figure>
+
+            <figure>
+                <img src="c:\Users\WINDOWS 10\Desktop\recursosVisuales\estructura_de_html.png"
+                    alt="Estructura de HTML" />
+                <figcaption>Estructura de HTML</figcaption>
+            </figure>
         </section>
     </main>
 </body>
