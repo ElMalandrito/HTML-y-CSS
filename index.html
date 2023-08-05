@@ -4,30 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALENDARIO</title>
+    <title>Etiqueta select</title>
 </head>
 
 <body>
     <main>
-
-
-        <form action="">
-            <label for="email">
-                <span>Ingrese el corre</span>
-                <input type="email" id="email" name="email" autocomplete="email" required>
-            </label>
-
-
-            <form action="">
-                <label for="cp">
-                    <span>Ingrese el codigo postal</span>
-                    <input type="cp" id="cp" name="cp" autocomplete="postal-code" required>
-                </label>
-                <input type="submit">
-
-            </form>
+        <select name="cursos" id="">
+            <option value="Python">Python</option>
+            <option value="HTML5">HTML5</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+        --------------------------------------------------------------------------
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="Python"></option>
+            <option value="HTML5"></option>
+            <option value="JavaScript"></option>
+            <option value="CSS"></option>
+        </datalist>
     </main>
 </body>
-
+<!--Dos formas de hacer select (Etiqueta que te crea una input y ouedes agregar opciones para que el usuario selecione una)-->
 
 </html>
