@@ -1,18 +1,8 @@
-* {
-    box-sizing: border-box;
-    /* border-box es para que la etiqueta se adacte automaticamente*/
-    padding: 0;
-    margin: 0;
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #272829;
-}
-
-main {
-    width: 100%;
-    height: 500px;
-    border: 10px solid #61677A;
-    padding: 20px 35px;
+h1 {
+    font-size: inherit;
 }
