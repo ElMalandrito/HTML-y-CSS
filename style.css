@@ -22,20 +22,31 @@ h1 {
     font-size: 18px;
 }
 
-#main-nav {
+.nav {
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0;
 }
 
-#main-nav li {
+.nav li {
     display: inline-block;
 }
 
-#main-nav a {
+.nav a {
     color: #7C9D96;
     background-color: #F4F2DE;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
 }
+
+.nav .blog {
+    /* ejemplo de especificidad*/
+    background-color: #E9B384;
+}
+
+/*Otro dato a tener en cuenta es que a la hora de modificar la parte del nav llamamos 4 veces la misma etiqueta la mejor forma de modificar es asi se llama la etiqueta princiapaljunto con la parte donde se van a hacer los cambios*/
+
+/*
+Es preferible modificar los estilos usando la clase como referencia en este ejemplo de especificidad queriamos solo cambiar el icono de blog de color la mejor forma de hacer es usando las dos etiquetas de clase
+*/
