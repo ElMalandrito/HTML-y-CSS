@@ -8,8 +8,8 @@ body {
     background-color: #A1CCD1;
 }
 
-h2~p {
+div p {
     color: #6C3428;
 }
 
-/* Esto lo que hace es que por ejemplo el h2 esta como hermano generar el el div osea que esta de primero,con este simbolo se leindica al ordenador que modifique todos los parrafos que tengan comohermano general un h2*/
+/* este combinador es el que venimos usando le indica al ordenador que modifique la etiquetas de parrafo que esten dentro de un div*/
