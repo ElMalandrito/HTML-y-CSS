@@ -8,8 +8,15 @@ body {
     background-color: #A1CCD1;
 }
 
-div p {
-    color: #6C3428;
+main {
+    background-color: #749BC2;
+    width: 50%;
+    /*Con los contenedores hay que tener en cuenta poner medidas que sean relativas como el %para quenogeneren escrol*/
+    height: 500px;
 }
 
-/* este combinador es el que venimos usando le indica al ordenador que modifique la etiquetas de parrafo que esten dentro de un div*/
+
+p {
+    font-size: 18px;
+    /*PX es una medida absoluta no va a cambiar dependiendo del tamaño de la pantalla siempre va aser 18px*/
+}
