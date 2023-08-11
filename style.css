@@ -4,23 +4,23 @@
     padding: 0;
 }
 
-body {
-    background-color: #A1CCD1;
-}
-
-/*
-.text-container {
-    font-size: 1.5em;
-    un EM toma el tamaño de fuente de su padre directo
-}
-*/
-p {
-    font-size: 1rem;
-    /*Va a referenciar el tamaño de fente que tenga el html */
-}
-
 html {
     font-size: 62.5%;
-    /*Con esto loque hacemos es que ajustamos la escala del html al rem
-    entonces si ponemos 1.3 rem eso va a ser 13px  */
+}
+
+main {
+    width: 100vw;
+    /*El vw y vh se ajustan a la pantalla significan viewport height y viewport width */
+    height: 100vh;
+    background-color: #F4D160;
+}
+
+section {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    /*Esto le dice al navegador que no le de margen de arriba ni abajo pero que lo centro a los lados*/
+    background-color: #75C2F6;
+    max-width: 500px;
+    /*esto le dice cual es el ancho maximo;*/
 }
