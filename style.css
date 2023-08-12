@@ -8,21 +8,33 @@ body {
     background-color: #272829;
 }
 
-.parent {
-    border: 2px #8062D6 dotted;
+#parent {
     display: inline-block;
+    margin: 20% 30%;
 }
 
 .box {
-    display: inline-block;
-    background-color: #D8D9DA;
     width: 100px;
     height: 100px;
+    display: inline-block;
+    background-color: #ADC4CE;
+}
+
+#one {
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 143px;
+    margin-top: -30px;
+    border: solid;
+    border-radius: 20px;
+    width: 121px;
+    height: 55px;
+    */
 }
 
 #two {
-    background-color: #4477CE;
-    position: absolute;
-    /*Esto lo que hace es que el div pierda la posicion donde estaba entonces si estaban en una fila los div se van a reagrupar como si el div 2 no estuviera pero el div dos va a estar sobre puesto osea los div sereagrupan como si el div 2 no estuviera pero el div dos mantiene su posicion y queda por delante del div que esta ocupando su lugar  */
-
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid;
 }
