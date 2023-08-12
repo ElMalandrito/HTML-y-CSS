@@ -4,23 +4,25 @@
     padding: 0;
 }
 
-html {
-    font-size: 62.5%;
+body {
+    background-color: #272829;
 }
 
-main {
-    width: 100vw;
-    /*El vw y vh se ajustan a la pantalla significan viewport height y viewport width */
-    height: 100vh;
-    background-color: #F4D160;
+.parent {
+    border: 2px #8062D6 dotted;
+    display: inline-block;
 }
 
-section {
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
-    /*Esto le dice al navegador que no le de margen de arriba ni abajo pero que lo centro a los lados*/
-    background-color: #75C2F6;
-    max-width: 500px;
-    /*esto le dice cual es el ancho maximo;*/
+.box {
+    display: inline-block;
+    background-color: #D8D9DA;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: #4477CE;
+    position: absolute;
+    /*Esto lo que hace es que el div pierda la posicion donde estaba entonces si estaban en una fila los div se van a reagrupar como si el div 2 no estuviera pero el div dos va a estar sobre puesto osea los div sereagrupan como si el div 2 no estuviera pero el div dos mantiene su posicion y queda por delante del div que esta ocupando su lugar  */
+
 }
