@@ -1,19 +1,16 @@
-.header {
-    font-size: 16px;
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background: #C70039;
+    margin: auto;
 }
 
-.header__h1 {
-    font-size: 2em;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 2;
-    font-weight: 400;
-    background-color: aqua;
-    display: inline-block;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 10px;
-    box-shadow: -8px 9px 7px 2px black;
-    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff;
-    /*Si ponemos dos veces los valores aumenta la intensidad del efecto*/
-    transform: rotate(-45deg);
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: #F94C10;
+    margin: auto;
+    outline: 10px solid black;
+    /*Esta propiedad te genera un borde pero el borde no ocupa un espacio real, osea cuando usamos la propiedad border el border pasa a formar parte de width de la casa el outline solo se muestra pero noocupa espacio se superpone a los demas elementos que esten cerca de la caja esto puede servir en caso de que queramos hacer que al pasar el mouse por encima de un elemento nos muestre un borde */
+
 }
