@@ -8,11 +8,12 @@
     line-height: 2;
     font-weight: 400;
     background-color: aqua;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: -8px 9px 7px 2px black;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff;
+    /*Si ponemos dos veces los valores aumenta la intensidad del efecto*/
+    transform: rotate(-45deg);
 }
-
-/*Como usar las tipografias de googlefont
-
--1) Buscas en google font latipografia y copias y pegas el link en el head de html
--2)Pegas la referencia en el css y listo
-
-*/
