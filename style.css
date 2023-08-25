@@ -1,16 +1,34 @@
+* {
+    font-size: 40px;
+    color: aqua;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
 .caja1 {
-    width: 200px;
-    height: 200px;
-    background: #C70039;
-    margin: auto;
+    background-color: black;
+    z-index: 100;
+    /*Esto te permite decidir que elemento va a ir por delante de otro si el z index de un elemento es mayor al otro ese elemento va a ir por delante
+    
+    IMPORTANTE si tienes un contenedor y un elemento dentro delcontenedor la unica forma de poder hacer que el contenedor padre este por encima del contenedor hijo es dandole alhijo un z index de -1
+    */
+
 }
 
 .caja2 {
-    width: 200px;
-    height: 200px;
-    background: #F94C10;
-    margin: auto;
-    outline: 10px solid black;
-    /*Esta propiedad te genera un borde pero el borde no ocupa un espacio real, osea cuando usamos la propiedad border el border pasa a formar parte de width de la casa el outline solo se muestra pero noocupa espacio se superpone a los demas elementos que esten cerca de la caja esto puede servir en caso de que queramos hacer que al pasar el mouse por encima de un elemento nos muestre un borde */
+    background-color: blue;
+    position: relative;
+    /*Position relative te permita empezar a mover el objeto*/
+}
 
+.caja3 {
+    background-color: gold;
+}
+
+.caja4 {
+    background-color: brown;
 }
