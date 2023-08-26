@@ -3,32 +3,51 @@
     color: aqua;
 }
 
-div {
-    width: 150px;
-    height: 150px;
+.contenedor {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 50px auto;
+    border: 4px solid black;
+    background-color: #EAC696;
+
+
+}
+
+div div {
+    width: 100px;
+    height: 100px;
     display: block;
+    position: absolute;
 }
 
 .caja1 {
     background-color: black;
-    z-index: 100;
-    /*Esto te permite decidir que elemento va a ir por delante de otro si el z index de un elemento es mayor al otro ese elemento va a ir por delante
-    
-    IMPORTANTE si tienes un contenedor y un elemento dentro delcontenedor la unica forma de poder hacer que el contenedor padre este por encima del contenedor hijo es dandole alhijo un z index de -1
-    */
 
 }
 
 .caja2 {
     background-color: blue;
-    position: relative;
-    /*Position relative te permita empezar a mover el objeto*/
+    right: 0;
+
 }
 
 .caja3 {
     background-color: gold;
+    bottom: 0;
 }
 
 .caja4 {
-    background-color: brown;
+    background-color: crimson;
+    bottom: 0;
+    right: 0;
+}
+
+.caja5 {
+    background-color: chartreuse;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
