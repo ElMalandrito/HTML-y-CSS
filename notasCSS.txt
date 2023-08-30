@@ -1,0 +1,138 @@
+-----------------PROPIEDADES DE CSS
+
+                 Apariencia visual :
+
+background-color: define el color de fondo de un elemento.
+
+color: Establezca el color del texto.
+
+font-size: Controla el tamaño de la fuente del texto.
+
+font-family: Especifica la familia de fuentes para el texto.
+
+font-weight: Defina el grosor de la fuente (negrita).
+
+text-align: Alinea el texto dentro del elemento.
+
+text-decoration: Agrega decoraciones al texto, como subrayado.
+
+line-height: Establece la altura de línea entre las líneas de texto.
+
+opacity: Controla la opacidad del elemento.
+
+
+                       Caja y diseño :
+
+width: Defina el ancho del elemento.
+
+height: Defina la altura del elemento.
+
+margin: Espacio alrededor del elemento.
+
+padding: Espacio entre el contenido y los bordes.
+
+border: Establece los bordes del elemento.
+
+border-radius: Defina la curvatura de las esquinas de los bordes.
+
+box-sizing: Controla cómo se calcula el tamaño de la caja.
+
+display: Determine cómo se muestra el elemento en el flujo del documento.
+
+position: Controle la posición del elemento en relación con su contenedor.
+
+float: Permite que el elemento flote a la izquierda o derecha de su contenedor.
+
+clear: Controla cómo se maneja el flujo de elementos flotantes cercanos.
+
+                        Flexbox y Grid (diseño en caja) :
+
+
+flex: Defina cómo se distribuye el espacio entre los elementos flexibles.
+
+flex-direction: Establece la dirección en la que se distribuyen los elementos flexibles.
+
+justify-content: Alinea los elementos flexibles en el eje principal.
+
+align-items: Alinea los elementos flexibles en el eje cruzado.
+
+grid-template-columns: Defina el ancho de las columnas en una cuadrícula.
+
+grid-template-rows: Defina la altura de las filas en una cuadrícula.
+
+grid-gap: Establece el espacio entre las celdas de una cuadrícula.
+
+                        Interacción y animación :
+
+cursor: Cambia el cursor del mouse cuando se coloca sobre el elemento.
+
+hover: Selecciona estilos cuando se coloca el cursor sobre el elemento.
+
+transition: Controla la transición suave entre estados de estilo.
+
+animation: Crea animaciones personalizadas para el elemento.
+
+                        Fondo :
+
+background-image: Defina una imagen de fondo para el elemento.
+
+background-repeat: Controla cómo se repite la imagen de fondo.
+
+background-size: Establece el tamaño de la imagen de fondo.
+
+background-position: Defina la posición de la imagen de fondo.
+
+                        Texto :
+
+text-transform: Cambia el caso del texto (mayúsculas/minúsculas).
+
+text-shadow: sombra Agrega al texto.
+
+white-space: Controla cómo se maneja el espacio en blanco en el texto.
+
+                        Espaciado y alineado :
+
+text-align: Alinee el texto horizontalmente en su contenedor.
+
+vertical-align: Alinea el contenido verticalmente dentro de su línea.
+
+                        Otros :
+
+list-style: Defina el estilo de viñeta o numeración de listas.
+
+outline: Agrega un contorno alrededor del elemento.
+
+overflow: Controla cómo se maneja el contenido que desborda el elemento.
+-------------------------------------------------------------------------------------------------
+
+                    PSEUDO-ELEMENTOS
+
+::before : Este pseudo-elemento permite agregar contenido antes del contenido real de un elemento. Es útil para crear elementos decorativos o íconos.
+
+::after : Similar a ::before, pero agrega contenido después del contenido real de un elemento.
+
+::first-line : Permite aplicar estilos específicos a la primera línea de un bloque de texto.
+
+::first-letter : Permite aplicar estilos específicos al primer carácter de un bloque de texto.
+
+::selection : Permite aplicar estilos a un texto seleccionado por el usuario.
+
+::placeholder : Permite aplicar estilos al texto de marcador de posición en campos de entrada y áreas de texto.
+
+::nth-child() : Este pseudoelemento se utiliza para seleccionar elementos en función de su posición en relación con sus elementos hermanos. Por ejemplo, nth-child(odd)seleccione los elementos impares.
+
+::nth-of-type() : Similar a nth-child(), pero se enfoca en seleccionar elementos del mismo tipo en lugar de todos los elementos.
+
+::last-child : Selecciona el último elemento hijo de su elemento padre.
+
+::last-of-type : Selecciona el último elemento de un tipo específico dentro de su elemento padre.
+
+::not() : Permite seleccionar elementos que no coincidan con un selector dado.
+
+::hover : permite aplicar estilos a un elemento cuando se coloca el cursor sobre él.
+
+::focus : Permite aplicar estilos a un elemento que ha recibido el foco, como un campo de entrada.
+
+::active : Permite aplicar estilos a un elemento mientras está siendo activado (por ejemplo, cuando se hace clic en un enlace).
+
+::before y ::after con contenido generado (content) : Estos pseudo-elementos se utilizan a menudo con la propiedad contentpara crear elementos de diseño o íconos.

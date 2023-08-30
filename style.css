@@ -3,16 +3,39 @@
     font-weight: 100;
 }
 
-.caja1 {
-    margin: auto;
-    margin-top: 50px;
-    border: 4px solid black;
-    background: gray;
-    width: 50%;
-    height: 50%;
+body {
+    background-color: #93B1A6;
 }
 
-.caja1 img {
-    float: right;
+.deco {
+    background-color: #D5FFD0;
     width: 200px;
+    height: 100vh;
+    margin-left: 150px;
+    position: absolute;
+    top: 0px;
+
+}
+
+.content-principal {
+    width: 700px;
+    height: 300px;
+    background-color: #9ED2BE;
+    position: relative;
+    margin: 30px;
+    border-radius: 20px;
+
+}
+
+.content-principal img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+div h1 {
+    position: relative;
+    display: block;
+    margin-left: 330px;
 }
