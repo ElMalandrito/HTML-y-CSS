@@ -1,75 +1,293 @@
-* {
-    font-size: 20px;
-    font-weight: 100;
-}
-
 body {
+    background-image: url(recursosVisuales/info/body-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-    background-color: #93B1A6;
 }
 
-.deco {
-    background-color: #102C57;
-    width: 200px;
-    height: 100vmax;
-    margin-left: 150px;
+.background-image {
+    width: 100%;
+    height: 100vh;
     position: absolute;
+    background-color: #040D12;
+    opacity: 0.37;
+}
+
+/*Nav-Bar*/
+.div-nav {
+    background-color: #191717;
+}
+
+.menu-button {
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    margin-left: 7px;
+
+}
+
+.menu-button>div {
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .5s;
+    transform-origin: left;
+    margin-top: 7px;
+    margin-left: px;
+
+}
+
+.menu-button:hover div:first-child {
+    transform: rotate(45deg);
+}
+
+.menu-button:hover div:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-button:hover div:last-child {
+    transform: rotate(-45deg);
+}
+
+
+main {
+    /*POSICIONAMIENTO--definiendo el tamaño del main*/
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-title {
+    /*este div lo creamos para darle el efecto de opacidad solo al fondo*/
+    /*DISEÑO DEL FONDO*/
+    width: 242px;
+    height: 64px;
+    background-color: #191717;
+    opacity: 0.8;
+    border-radius: 50px;
+
+    /*POSICIONAMOENTO DEL FONDO*/
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#titulo {
+    /*POSICIONAMIENTO--centrando el h1(referencia en tiktok)*/
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.iconos li,
+h2 {
+    color: ivory;
+}
+
+h1 {
+    color: #F1EFEF;
+}
+
+.content-icon,
+.iconos,
+.img,
+.contenido {}
+
+.content-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Alinea los elementos horizontalmente en el centro */
+    align-items: center;
+    /* Alinea los elementos verticalmente en el centro */
+    padding: 12px;
+    flex-wrap: wrap;
+    top: 130px;
+    gap: 40px;
+}
+
+.content-icon .iconos .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.content-icon .iconos .contenido {
+    width: 160px;
+    height: 1px;
+    position: relative;
+    top: -130px;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
+}
+
+.content-icon .iconos:hover .contenido {
     top: 0px;
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+    height: 150px;
+    width: 160px;
+
 
 }
 
-.nav {
-    width: 185px;
-    height: 1000px;
-    position: absolute;
-    left: 0;
-    background-color: #D5FFD0;
-    border-radius: 20px;
-    text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.css-icon {}
+
+.iconos {}
+
+.img-css {}
+
+.img {}
+
+.css-content {}
+
+.contenido {}
+
+.html-icon {}
+
+.img-html {}
+
+.html-content {}
+
+.js-icon {}
+
+.img-js {}
+
+.js-content {}
+
+.git-icon {}
+
+.img-git {}
+
+.git-content {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.content-icon {
+   
 }
 
-nav h2 {
-    margin: 10px;
-    font-size: ;
+.content-icon .iconos {
+    max-width: 300px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+
+
+    border-radius: 15px;
+    transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.content-principal {
-    width: 700px;
-    height: 1020px;
-    background-color: #9ED2BE;
+.iconos:hover {
+    height: 420px;
+    background-color: #F1EFEF;
+}
+
+.content-icon .iconos .img {
     position: relative;
-    margin: auto;
-    border-radius: 20px;
-
+    width: 200px;
+    height: 260px;
+    top: -60px;
+    left: 35px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
-.img3 {
-    margin-top: 719px;
-}
-
-.imagen2 {
-    margin-top: 360px;
-}
-
-.content-principal img {
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
-    position: absolute;
-}
-
-.content-principal h2 {
+.content-icon .iconos .contenido {
     position: relative;
-    display: block;
-    margin-left: 410px;
+    margin-top: -140px;
+    padding: 10px 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
-.content-text {
-    display: inline-block;
-    width: 380px;
-    height: 200px;
-    position: relative;
-    margin-left: 310px;
-    margin-top: 10px;
+.content-icon .iconos:hover .contenido {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
 
+
+
+.img {
+    width: 200px;
+    display: flex;
 }
